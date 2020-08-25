@@ -21,5 +21,5 @@ with h5py.File(file, 'r') as f:
     similarity_array = out_datas['similarity'] 
     
 
-                
+h5文件存储的要求有哪些？我之前用dict存放每一笔数据，然后用[]存放所有dict，之后想存成h5.不行。看了别人代码，意识到h5能存储的是np.array.还有json存不了nparray                
                 
